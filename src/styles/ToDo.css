@@ -1,0 +1,62 @@
+/* ToDo.css */
+.todo-container {
+    width: 600px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .action-btn {
+    background-color: #007bff;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .task-item input[type="text"] {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .task-item span {
+    flex: 1;
+  }
+  
+  .task-item button {
+    margin-left: 5px;
+  }
+  
